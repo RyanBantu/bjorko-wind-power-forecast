@@ -1,0 +1,10 @@
+{
+  "n_completed_windows": 179,
+  "completed_seconds": 800.0,
+  "intra_window_std_median_ms": 0.834341431995942,
+  "intra_window_std_mean_ms": 0.8748177620382375,
+  "n_hours_with_3plus_quarters": 59,
+  "intra_hour_resid_std_ms": 0.4069427225081603,
+  "source": "/Users/ryanbantu/Desktop/Chalmers_project/outputs/bjorko_15min_running_20hz.csv",
+  "note": "intra_window_std is the 20 Hz WS30 std inside a 15-min window. intra_hour_resid_std is the scatter of 15-min means around the hourly mean and is the default noise amplitude for hourly\u219215-min disaggregation."
+}

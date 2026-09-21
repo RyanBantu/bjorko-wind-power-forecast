@@ -1,0 +1,18 @@
+Bit no.,Digital signal,Value,Description
+0,CON,1,"Converter On, Controller output. "
+1,EBOFF,2,"Electric Brake OFF, Controller output."
+2,HPON,4,"Hydraulic Pump ON, Controller output."
+3,MB1OFF,8,"Mechanical Brake 1 OFF, Controller output."
+4,MB2OFF,16,"Mechanical Brake 2 OFF, Controller output."
+5,COK,32,"Converter OK, Controller input."
+6,EBEM,64,"Electric Brake Emergency stop, Controller input."
+7,EBST,128,"Electric Brake STatus, Controller input."
+8,GON,256,"Grid ON, Controller input."
+9,SSTOP,512,"Safety STOP (from Safety PLC) , Controller input."
+10,MSTOP,1024,"Manual STOP button, Controller input."
+11,NV,2048,"Nacelle Vibration sensor, Controller input."
+12,AIRHN,4096,"AIR Humidity Nacelle hygrostat, Controller input."
+,,,
+Notes:,,,
+Column no 7 (Dig_IO_States) in the measurement files contains a numerical integer value representing the state of several digital input and output signals in the wind turbine controller system. ,,,
+"The integer number is the sum of the values of the bits that are logical 1. See table below. For example: If bit 0, 4 and 12 is logical 1, and all other bits are 0, the integer value in the file will be 1+16+4096=4113.",,,

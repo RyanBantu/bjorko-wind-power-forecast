@@ -1,0 +1,22 @@
+{
+  "a": 0.9302074510037108,
+  "b": 1.3559455594970473,
+  "r2": 0.6468521004957519,
+  "n_points": 311,
+  "bias_fcst_minus_obs_ms": -0.9566031415672968,
+  "model": "observed_ws30 = a * forecast_ws + b",
+  "source": "/Users/ryanbantu/Desktop/Chalmers_project/outputs/backtest_aligned_points.csv",
+  "cross_validation": {
+    "scheme": "leave-one-day-out",
+    "n_folds": 44,
+    "a_mean": 0.9301991654216916,
+    "a_std": 0.02003696809724679,
+    "a_min": 0.8843216376474142,
+    "a_max": 1.0368351439662162,
+    "b_mean": 1.3561981973653157,
+    "b_std": 0.10417720921845126,
+    "b_min": 0.8504665227268314,
+    "b_max": 1.68199718767681,
+    "note": "a, b shipped here are fit on all 44 days. LODO metrics are the honest estimate for a new unseen day."
+  }
+}

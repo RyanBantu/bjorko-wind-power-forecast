@@ -1,0 +1,18 @@
+# Raw SCADA (multi-GB; download from Zenodo)
+B1_CL4_20.csv
+B1_CL4_100.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+.env
+
+# OS / editor
+.DS_Store
+.mplconfig/
+
+# Local matplotlib cache
+.mplconfig
